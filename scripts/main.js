@@ -61,6 +61,7 @@ function removeNote(id) {
     
     var parent = document.getElementById('notes_all');
     var child = document.getElementById(id);
+    parent.removeChild(child);
 }
 
 function getRandomColor() {
